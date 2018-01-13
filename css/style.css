@@ -27,7 +27,7 @@ span.italic {
 .card-link-text {
   color: black
 }
-div.card, img, ul.collection {
+div.card, ul.collection {
   border-radius: 15px;
 }
 .card-content {
@@ -47,4 +47,9 @@ footer.footer.has-text-centered {
   color: black;
   background-color: #eed3af;
   border-radius: 10px;
+}
+img.headshot {
+  display: block;
+  margin: auto;
+  border-radius: 15px;
 }
