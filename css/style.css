@@ -16,7 +16,7 @@ h2 {
 div.card-action{
   color: black;
 }
-p, li {
+p, li, a {
   font-size: 18px;
 }
 span.italic {
