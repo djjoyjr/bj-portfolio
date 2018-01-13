@@ -1,0 +1,24 @@
+body {
+  font-family: 'Oswald', sans-serif;
+}
+.quote {
+  font-style: italic;
+}
+.container {
+  width: 90%;
+}
+h1 {
+  font-size: 45px;
+}
+h2 {
+  font-size: 35px;
+}
+div.card-action{
+  color: black;
+}
+p, li {
+  font-size: 18px;
+}
+span.italic {
+  font-style: italic;
+}
