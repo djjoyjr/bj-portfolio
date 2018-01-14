@@ -5,7 +5,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.card-name {
+.card-name, .card-contact {
   text-align: center;
   font-weight: 600;
   font-size: 1.5em;
@@ -25,6 +25,9 @@ h2 {
 p, li, a {
   font-size: 25px;
   color: black;
+}
+p.postal {
+  font-size: 1.1em;
 }
 span.italic {
   font-style: italic;
@@ -57,55 +60,4 @@ img.headshot {
   display: block;
   margin: auto;
   border-radius: 15px;
-}
-
-@import "compass/css3";
-
-@import url('https://fonts.googleapis.com/css?family=Finger+Paint');
-
-span.smoke {
-  font: 2vw/5vw;
-  font-family: 'Finger Paint', cursive;
-  display: inline-block;
-  text-shadow: 0 0 0 whitesmoke;
-  animation: smoky 5s 3s both;
-}
-
-span.smoke:nth-child(even){
-  animation-name: smoky-mirror;
-}
-
-@keyframes smoky {
-  60% {
-    text-shadow: 0 0 40px whitesmoke;
-  }
-  to {
-    transform:
-      translate3d(15rem,-8rem,0)
-      rotate(-40deg)
-      skewX(70deg)
-      scale(1.5);
-    text-shadow: 0 0 20px whitesmoke;
-    opacity: 0;
-  }
-}
-
-@keyframes smoky-mirror {
-  60% {
-    text-shadow: 0 0 40px whitesmoke; }
-  to {
-    transform:
-      translate3d(18rem,-8rem,0)
-      rotate(-40deg)
-      skewX(-70deg)
-      scale(2);
-     text-shadow: 0 0 20px whitesmoke;
-    opacity: 0;
-  }
-}
-
-@for $item from 1 through 21 {
-  span:nth-of-type(#{$item}){
-    animation-delay: #{(3 + ($item/10))}s;
-  }
 }
