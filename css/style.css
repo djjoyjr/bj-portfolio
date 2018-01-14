@@ -35,9 +35,18 @@ span.italic {
 .card-link-text {
   color: black
 }
-div.card, ul.collection, li.collection-item {
+div.card.bj, div.card.contact-me {
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 15px;
+  background-color: transparent;
+}
+ul.collection, li.collection-item {
   border: 0;
   border-radius: 15px;
+}
+li.collection-item.items-in-lists {
+  background-color: transparent;
 }
 .card-content {
   margin-left: auto;
