@@ -35,7 +35,8 @@ span.italic {
 .card-link-text {
   color: black
 }
-div.card, ul.collection {
+div.card, ul.collection, li.collection-item {
+  border: 0;
   border-radius: 15px;
 }
 .card-content {
