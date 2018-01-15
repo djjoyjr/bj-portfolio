@@ -1,10 +1,10 @@
 body {
   font-family: 'Roboto', sans-serif;
   text-shadow: 1px 1px whitesmoke;
-  background-image: url("../images/Light-Parchment-Texture.jpg");
+/*   background-image: url("../images/Light-Parchment-Texture.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-color: white; */
+   */background-color: white;
 }
 .card-name, .card-contact {
   text-align: center;
