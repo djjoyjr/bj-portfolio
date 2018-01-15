@@ -1,9 +1,11 @@
 body {
   font-family: 'Roboto', sans-serif;
   text-shadow: 1px 1px whitesmoke;
-  background-image: url("../images/sand.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+/*   background-image: url("../images/sand.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+ */
+   background-color: white;
 }
 .card-name, .card-contact {
   text-align: center;
