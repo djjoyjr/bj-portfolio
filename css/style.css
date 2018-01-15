@@ -62,6 +62,7 @@ div.card-links {
   text-align: center;
   font-size: 2em;
   border-radius: 15px;
+  padding-bottom: 15px;
 }
 footer.footer.has-text-centered {
   position: relative;
