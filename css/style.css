@@ -76,5 +76,5 @@ img.headshot {
   display: block;
   margin: auto;
   border-radius: 15px;
-  max-width: 95%;
+  width: 95%;
 }
